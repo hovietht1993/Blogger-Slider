@@ -100,7 +100,7 @@ function slideB(json) {
         var postThumbnail;
 
         if ('media$thumbnail' in post && post.media$thumbnail.url) {
-            postThumbnail = post.media$thumbnail.url.replace(/\/s[0-9]+(-c)?/, '/s' + wcSliderRandom.thumbSize);
+            postThumbnail = post.media$thumbnail.url.replace(/\/s[0-9]+(-c)?/, '/s' + wcSliderRandom.thumbSize + '-rw');
         } else {
             postThumbnail = defaultThumbnail;
         }
