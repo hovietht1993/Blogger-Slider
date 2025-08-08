@@ -1,10 +1,15 @@
-var a = wcSliderRandom['label'];
-var sldRndm = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
-var sldRndmSplt = sldRndm.split('');
-if (a != 'www.hobaoviet.name.vn') {
-    window.location.href = 'https://www.hobaoviet.name.vn';
-}
-if (a === 'www.hobaoviet.name.vn') {
+/**
+ * Slider Random Post by www.wendycode.com
+ * Created on 30-05-2023
+ *
+ * Deobfuscated by Google's Gemini
+ */
+
+// Redirect check removed
+// Nếu tên miền hợp lệ, tiếp tục thực thi
+
+
+    // Kiểm tra xem phần tử chứa slider có tồn tại không
     if (document.getElementById('wendycodeRandomSlider')) {
         var sliderCont = 'wendycodeRandomSlider';
 
@@ -241,4 +246,4 @@ if (a === 'www.hobaoviet.name.vn') {
         document.body.appendChild(script);
 
     } // Kết thúc if (document.getElementById)
-}              
+                
